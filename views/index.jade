@@ -7,8 +7,8 @@ block content
                 h1
                     a(href='/posts/show/#{post._id}')
                         =post.title
-                p.meta Posted in #{post.category} by #{post.author} on #{post.date}
-                =post.body
+                p.meta Posted in #{post.category} by #{post.author} on #{moment(post.date).format("MM-DD-YYYY")}
+                !=post.body
                 a.more(href='/posts/show/#{post._id}') Read More
     else
         p.noposts There are no posts to display
