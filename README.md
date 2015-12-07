@@ -1,5 +1,3 @@
-# nodejsblog
-=======
 #nodejsblog
 ##> seting up mongo db
 ######go to your mongodb dirrectory "bin folder"
