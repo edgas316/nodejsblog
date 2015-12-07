@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # nodejsblog
 =======
 #nodejsblog
@@ -23,4 +22,3 @@
 >db.createCollection('nameOfCollection-ex-users')
 #
 >show dbs
->>>>>>> developement
